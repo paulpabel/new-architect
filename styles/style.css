@@ -125,6 +125,39 @@ main {
     font-weight: 400;
 }
 
+
+/* feature section styles */
+.feature {
+    display: flex;
+    margin-top: 130px;
+    gap: 150px;
+}
+
+.feature-content .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+}
+
+.ten-years-badge h2 {
+  font-size: 4rem;
+}
+
 /* facts section styles */
 .facts-card-container {
     display: flex;
@@ -139,10 +172,10 @@ main {
 }
 
 .facts-card-container .card-title {
-    color:  #727272;
+    color: #727272;
     font-size: 1.25rem;
     font-weight: 600;
-    
+
 }
 
 .facts-card-container .card-stats {
@@ -150,21 +183,22 @@ main {
     color: #424242;
     margin-top: 10px;
     margin-bottom: 10px;
-   
+
 }
 
-.sponsors{
+.sponsors {
     text-align: center;
 }
 
-.sponsors-img-container{
+.sponsors-img-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top:  50px; 
+    margin-top: 50px;
     gap: 40px;
 }
-.sponsors-img-container img{
+
+.sponsors-img-container img {
     width: 165px;
 }
 
@@ -177,7 +211,8 @@ main {
 
     nav,
     .teams-container,
-    .facts-card-container,.sponsors-img-container{
+    .facts-card-container,
+    .sponsors-img-container {
         flex-direction: column;
     }
 
@@ -185,12 +220,14 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .teams-content,.facts-card-container {
+    .teams-content,
+    .facts-card-container {
         padding-right: 20px;
         padding-left: 20px;
     }
-    .facts-card-container{
-        gap:20px
+
+    .facts-card-container {
+        gap: 20px
     }
 
 
@@ -209,7 +246,8 @@ main {
     }
 
     nav,
-    .teams-container,.sponsors-img-container {
+    .teams-container,
+    .sponsors-img-container {
         flex-direction: column;
     }
 }
