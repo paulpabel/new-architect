@@ -160,6 +160,12 @@ main {
 .sponsors-img-container{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top:  50px; 
+    gap: 40px;
+}
+.sponsors-img-container img{
+    width: 165px;
 }
 
 /* responsive media quary styles */
@@ -171,7 +177,7 @@ main {
 
     nav,
     .teams-container,
-    .facts-card-container{
+    .facts-card-container,.sponsors-img-container{
         flex-direction: column;
     }
 
@@ -186,6 +192,7 @@ main {
     .facts-card-container{
         gap:20px
     }
+
 
 }
 
@@ -202,7 +209,7 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,.sponsors-img-container {
         flex-direction: column;
     }
 }
