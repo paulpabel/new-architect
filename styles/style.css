@@ -150,6 +150,16 @@ main {
     color: #424242;
     margin-top: 10px;
     margin-bottom: 10px;
+   
+}
+
+.sponsors{
+    text-align: center;
+}
+
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* responsive media quary styles */
@@ -160,7 +170,8 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,
+    .facts-card-container{
         flex-direction: column;
     }
 
@@ -168,9 +179,12 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .teams-content {
+    .teams-content,.facts-card-container {
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .facts-card-container{
+        gap:20px
     }
 
 }
